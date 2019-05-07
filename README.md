@@ -6,8 +6,10 @@ O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculo
 
 ## Instalação e download 
 
-1. Linux
-   Blajh
+### Distribuições Linux
+
+hghg
+
 
 
 
