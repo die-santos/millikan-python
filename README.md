@@ -20,4 +20,4 @@ class SomeClass:
 
 >>> message = '''interpreter
 ... prompt'''
-´´´
+```
