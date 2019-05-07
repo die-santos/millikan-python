@@ -8,7 +8,10 @@ O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculo
 
 ### Distribuições Linux
 
-hghg
+Se você tem **pip**, você pode tentar instalar a versão mais recente com:
+
+```pip install --upgrade uncertainties
+```
 
 
 
