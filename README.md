@@ -2,7 +2,6 @@
 
 Módulo Python Uncertainties
 
-    ```javascript
-    var init = "Olá, mundo!";
-    alert(init);
-    ```
+a = ufloat(23.32; 0.37)
+print (a)
+23.32+/-0.37
