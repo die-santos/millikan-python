@@ -10,8 +10,7 @@ O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculo
 
 Se você tem **pip**, você pode tentar instalar a versão mais recente com:
 
-```pip install --upgrade uncertainties
-```
+```pip install --upgrade uncertainties```
 
 
 
