@@ -2,7 +2,7 @@
 
 Módulo Python Uncertainties
 
-    ```javascript
+       javascript
     var init = "Olá, mundo!";
     alert(init);
-    ````
+    
