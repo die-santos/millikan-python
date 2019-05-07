@@ -8,11 +8,13 @@ O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculo
 
 ### Distribuições Linux
 
-Se você tem **pip**, você pode tentar instalar a versão mais recente com:
+Se você tem **pip**, você pode instalar a versão mais recente com:
 
 ```pip install --upgrade uncertainties```
 
+Se você tiver [setuptools](https://pypi.org/project/setuptools/), você poderá instalar/atualizar automaticamente este pacote com:
 
+```easy_install - atualiza as incertezas```
 
 
 
