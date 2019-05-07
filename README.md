@@ -8,7 +8,7 @@ O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculo
 
 ### Distribuições Linux
 
-Se você tem **pip**, você pode instalar a versão mais recente com:
+Se você tem [pip](https://pypi.org/project/pip/), você pode instalar a versão mais recente com:
 
 ```pip install --upgrade uncertainties```
 
@@ -16,7 +16,13 @@ Se você tiver [setuptools](https://pypi.org/project/setuptools/), você poderá
 
 ```easy_install - atualiza as incertezas```
 
+### Windows
 
+Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute um dos seguintes procedimentos:
+
+```conda install -c conda-forge uncertainties``` 
+```conda install -c conda-forge/label/gcc7 uncertainties``` 
+```conda install -c conda-forge/label/cf201901 uncertainties```
 
 ```python                         
 a = ufloat(23.32; 0.37) 
