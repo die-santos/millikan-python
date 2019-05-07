@@ -4,6 +4,8 @@ O [Módulo Python Uncertainties](https://pythonhosted.org/uncertainties/) é um 
 
 O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculos de incerteza. Os cálculos com incertezas e/ou derivadas podem ser realizados de forma interativa, a citar [Jupyter Notebook](https://jupyter.org/). Também podem ser realizados em programas escritos na linguagem de programação [Python](https://www.python.org/).
 
+## Instalação e download 
+
 
 ```python                         
 a = ufloat(23.32; 0.37) 
