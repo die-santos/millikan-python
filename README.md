@@ -4,7 +4,7 @@ O [Módulo Python Uncertainties](https://pythonhosted.org/uncertainties/) é um 
 
 O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculos de incerteza. Os cálculos com incertezas e/ou derivadas podem ser realizados de forma interativa, a citar [Jupyter Notebook](https://jupyter.org/). Também podem ser realizados em programas escritos na linguagem de programação [Python](https://www.python.org/).
 
-## Instalação e download 
+## Instalação do Módulo Python Uncertainties
 
 ### Distribuições Linux
 
@@ -26,6 +26,7 @@ Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute 
 
 ```conda install -c conda-forge/label/cf201901 uncertainties```
 
+### MacOS X
 ```python                         
 a = ufloat(23.32; 0.37) 
 print (a)
