@@ -1,3 +1,8 @@
 # teste-python
 
-Módulo Python Uncertainties 
+Módulo Python Uncertainties
+
+    ```javascript
+    var init = "Olá, mundo!";
+    alert(init);
+    ````
