@@ -8,6 +8,7 @@ print (a)
 ```
 
 @requires_authorization
+```
 def somefunc(param1='', param2=0):
     r'''A docstring'''
     if param1 > param2: # interesting
@@ -19,3 +20,4 @@ class SomeClass:
 
 >>> message = '''interpreter
 ... prompt'''
+´´´
