@@ -16,7 +16,7 @@ Se você tem [pip](https://pypi.org/project/pip/), você pode instalar a versão
 
 Se você tiver [setuptools](https://pypi.org/project/setuptools/), você poderá instalar/atualizar automaticamente este pacote com:
 
-```easy_install - atualiza as incertezas```
+```easy_install --upgrade uncertainties```
 
 ### Windows
 
