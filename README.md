@@ -52,20 +52,50 @@ import uncertainties.umath import *
 ## Definição de parâmetros e fórmulas com incertezas
 
 ### Use a função "ufloat" para definir números reais com incertezas ('u' de uncertainties, 'float' de número de ponto flutuante):
- 
 
-Distância  d = (2,50 ± 0,01) mm  entre as placas do capacitor:
 
 ```python
-d = ufloat(0.00250,0.00001); d
-0.0025+/-1e-05
+a = ufloat(23.45, 0.98); a
+23.45+/-0.98
 ```
- Gravidade local g = (9,80 ± 0,02) m/s²:
  
  ```python
-g = ufloat(9.80,0.02); g
-9.8+/-0.02
+ b = ufloat(21.32, 0.78); b
+ 21.32+/-0.78
 ```
+
+```python
+c = (a + b); c
+print ("Result = {0:.2f}".format(c))
+Result = 44.77+/-1.25
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
