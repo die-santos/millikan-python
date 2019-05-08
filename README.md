@@ -70,9 +70,36 @@ print ("Result = {0:.2f}".format(c))
 Result = 44.77+/-1.25
 ```
 
-### Propagação de incertezas para um vetor/lista de valores
+## Propagação de incertezas para um vetor/lista de valores
 
-#### Carregando o [sub-módulo unumpy do módulo Uncertainties](https://pythonhosted.org/uncertainties/numpy_guide.html) para lidar com vetor/lista de valores com incertezas:
+### Carregando o [sub-módulo unumpy do módulo Uncertainties](https://pythonhosted.org/uncertainties/numpy_guide.html) para lidar com vetor/lista de valores com incertezas:
+
+```python
+from uncertainties import unumpy
+```
+
+### Usa-se unumpy.uarray para criar lista de valores com incertezas, com uma lista dos valores nominais (exatos) seguida de uma lista de incertezas:
+
+```python
+s1vetor = unumpy.uarray([4.45e-3, 2.67e-3, 3.56e-3], [0.05e-3, 0.05e-3, 0.05e-3]); s1vetor
+array([0.00445+/-5e-05, 0.00267+/-5e-05, 0.00356+/-5e-05], dtype=object)
+```
+
+```python
+t1vetor = unumpy.uarray([9.6, 6.9, 6.4], [0.5, 0.5, 0.5]); t1vetor
+array([9.6+/-0.5, 6.9+/-0.5, 6.4+/-0.5], dtype=object)
+```
+
+### Operações aritméticas simples são feitas normal e transparentemente com lista de valores com incertezas:
+
+```python
+v1vetor = (s1vetor/t1vetor); v1vetor
+array([0.0004635416666666667+/-2.469820425110838e-05,
+       0.0003869565217391304+/-2.8961525379411206e-05,
+       0.0005562499999999999+/-4.4153694311048036e-05], dtype=object)
+```
+
+
 
 
 
