@@ -70,6 +70,10 @@ print ("Result = {0:.2f}".format(c))
 Result = 44.77+/-1.25
 ```
 
+### Propagação de incertezas para um vetor/lista de valores
+
+#### Carregando o [sub-módulo unumpy do módulo Uncertainties](https://pythonhosted.org/uncertainties/numpy_guide.html) para lidar com vetor/lista de valores com incertezas:
+
 
 
 
