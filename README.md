@@ -32,7 +32,7 @@ Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute 
 
  Usuários que utilizam o gerenciador MacPorts pode instalar uncertainties utilizando:
  
- ```sudo port install py**-uncertainties```, onde ** representa a versão do Python. 
+ ```sudo port install py**-uncertainties```, onde ```**``` representa a versão do Python. 
  
  
  
