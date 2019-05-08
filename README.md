@@ -49,13 +49,20 @@ Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute 
 ### Use a função "ufloat" para definir números reais com incertezas ('u' de uncertainties, 'float' de número de ponto flutuante):
  
 
-Distância  𝑑 = (2,50 ± 0,01) 𝑚𝑚  entre as placas do capacitor:
+Distância  d = (2,50 ± 0,01) mm  entre as placas do capacitor:
 
 ```python
 d = ufloat(0.00250,0.00001); d
 0.0025+/-1e-05
 ```
+ Gravidade local g = (9,80 ± 0,02) m/s²:
  
+ ```python
+g = ufloat(9.80,0.02); g
+9.8+/-0.02
+```
+
+
  
  
  
