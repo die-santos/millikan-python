@@ -34,15 +34,22 @@ Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute 
  
  ```sudo port install py**-uncertainties```, onde ```**``` representa a versão do Python. 
  
- # Manipulando cálculos com números e incertezas
+# Manipulando cálculos com números e incertezas
  
- ## Inicialização do Python (módulos math e uncertainties)
+## Inicialização do Python (módulos math e uncertainties)
  
+### Carregando definições e funções matemáticas:
+
  ```python
  import math
- import uncertainties import *
- import uncertainties.umath import *
- ```
+```
+
+### Carregando o módulo Python Uncertainties, que calcula a propagação de incertezas:
+
+```python
+import uncertainties import *
+import uncertainties.umath import *
+```
  
 ## Definição de parâmetros e fórmulas com incertezas
 
