@@ -1,4 +1,6 @@
-# Módulo Python Uncertainties
+# Uso do módulo Python Uncertainties de Incertezas no Experimento da Gota de Milikan
+
+## Módulo Python Uncertainties
 
 O [Módulo Python Uncertainties](https://pythonhosted.org/uncertainties/) é um módulo que manipula cálculos com números e incertezas associadas, por exemplo (2,32 ± 0,02), onde 2,32 é o número e 0,02 é a incerteza. O Módulo Python Uncertainties também pode produzir derivadas de qualquer expressão.
 
