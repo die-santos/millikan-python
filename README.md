@@ -36,9 +36,4 @@ Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute 
  
  
  
- 
-```python                         
-a = ufloat(23.32; 0.37) 
-print (a)
-23.32+/-0.37
-```
+
