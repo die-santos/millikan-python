@@ -1,4 +1,4 @@
-# Uso do módulo Python Uncertainties para Cálculos de Incertezas no Experimento da Gota de Milikan
+# Uso do módulo Python Uncertainties para Cálculos de Incertezas no Experimento da Gota de Millikan
 
 ## Módulo Python Uncertainties
 
@@ -43,6 +43,45 @@ Para instalar este pacote com o [conda](https://pypi.org/project/pip/), execute 
  import uncertainties import *
  import uncertainties.umath import *
  ```
+ 
+## Definição de parâmetros e fórmulas com incertezas
+
+### Use a função "ufloat" para definir números reais com incertezas ('u' de uncertainties, 'float' de número de ponto flutuante):
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
