@@ -65,7 +65,7 @@ a = ufloat(23.45, 0.98); a
 ```
 
 ```python
-c = (a + b); c
+c = (a + b)
 print ("Result = {0:.2f}".format(c))
 Result = 44.77+/-1.25
 ```
