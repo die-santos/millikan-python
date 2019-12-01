@@ -1,4 +1,4 @@
-# Uso do módulo Python Uncertainties para Cálculos de Incertezas no Experimento da Gota de Millikan
+# Uso do módulo Python Uncertainties para Cálculos de Incertezas do Experimento da Gota de Millikan
 
 ## Módulo Python Uncertainties
 
