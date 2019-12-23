@@ -1,8 +1,12 @@
 # Módulo Python Uncertainties
 
-O [Módulo Python Uncertainties](https://pythonhosted.org/uncertainties/) é um módulo que manipula cálculos com números e incertezas, por exemplo (2,32 ± 0,02), onde 2,32 é o número e 0,02 é a incerteza. O Módulo Python Uncertainties também pode produzir derivadas de qualquer expressão.
+O [Módulo Python Uncertainties](https://pythonhosted.org/uncertainties/) é um módulo que manipula cálculos com números e 
+incertezas, por exemplo (2,32 ± 0,02), onde 2,32 é o valor nominal e 0,02 é a incerteza associada ao valor nominal. O Módulo 
+Python Uncertainties também pode produzir derivadas de qualquer expressão.
 
-O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculos de incerteza. Os cálculos com incertezas e/ou derivadas podem ser realizados de forma interativa, a citar [Jupyter Notebook](https://jupyter.org/). Também podem ser realizados em programas escritos na linguagem de programação [Python](https://www.python.org/).
+O Módulo Python Uncertainties ameniza o trabalho árduo e complexo dos cálculos de incerteza. Os cálculos com incertezas e/ou 
+derivadas podem ser realizados de forma interativa, a citar [Jupyter Notebook](https://jupyter.org/). Também podem ser 
+realizados em programas escritos na linguagem de programação [Python](https://www.python.org/).
 
 ## Instalação do Módulo Python Uncertainties
 
@@ -12,7 +16,8 @@ Se você tem [pip](https://pypi.org/project/pip/), você pode instalar a versão
 
 ```pip install --upgrade uncertainties```
 
-Se você tiver [setuptools](https://pypi.org/project/setuptools/), você poderá instalar/atualizar automaticamente este pacote com:
+Se você tiver [setuptools](https://pypi.org/project/setuptools/), você poderá instalar/atualizar automaticamente este pacote 
+com:
 
 ```easy_install --upgrade uncertainties```
 
@@ -76,7 +81,8 @@ Result = 44.77+/-1.25
 from uncertainties import unumpy
 ```
 
-### Usa-se unumpy.uarray para criar lista de valores com incertezas, com uma lista dos valores nominais (exatos) seguida de uma lista de incertezas:
+### Usa-se unumpy.uarray para criar lista de valores com incertezas, com uma lista dos valores nominais (exatos) seguida de 
+uma lista de incertezas:
 
 ```python
 s1vetor = unumpy.uarray([4.45e-3, 2.67e-3, 3.56e-3], [0.05e-3, 0.05e-3, 0.05e-3]); s1vetor
